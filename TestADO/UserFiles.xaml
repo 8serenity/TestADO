@@ -1,0 +1,15 @@
+﻿<Window x:Class="TestADO.UserFiles"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TestADO"
+        mc:Ignorable="d"
+        Title="UserFiles" Height="350" Width="525"
+        Background="Beige">
+    <Grid>
+        <DataGrid Name="userFilesView" Height="200" Width="500"></DataGrid>
+        <Button Width="50" Height="20" Content="Upload" Margin="70 230 0 0" Click="UploadClick"/>
+        <Button Width="50" Height="20" Content="Delete" Margin="-70 230 0 0" Click="DeleteClick" />
+    </Grid>
+</Window>
